@@ -1,0 +1,13 @@
+/home/omid/catkin_ws/install/_setup_util.py
+/home/omid/catkin_ws/install/env.sh
+/home/omid/catkin_ws/install/setup.bash
+/home/omid/catkin_ws/install/local_setup.bash
+/home/omid/catkin_ws/install/setup.sh
+/home/omid/catkin_ws/install/local_setup.sh
+/home/omid/catkin_ws/install/setup.zsh
+/home/omid/catkin_ws/install/local_setup.zsh
+/home/omid/catkin_ws/install/.rosinstall
+/home/omid/catkin_ws/install/lib/pkgconfig/beginner_tutorials.pc
+/home/omid/catkin_ws/install/share/beginner_tutorials/cmake/beginner_tutorialsConfig.cmake
+/home/omid/catkin_ws/install/share/beginner_tutorials/cmake/beginner_tutorialsConfig-version.cmake
+/home/omid/catkin_ws/install/share/beginner_tutorials/package.xml
