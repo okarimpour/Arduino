@@ -34,8 +34,8 @@ roscpp = c++ client library
 
 **rosrun:** allows you to use the package name to directly run a node within a package (without having to know the package path).(One powerful feature of ROS is that you can reassign Names from the command-line __name:=new_name)
 _______________________________________________
-'''
-### Create a ROS workspace:
+```
+# Create a ROS workspace:
 
 $ mkdir -p ~/catkin_ws/src
 $ cd ~/catkin_ws/
@@ -43,39 +43,39 @@ $ catkin_make
 $ source devel/setup.bash
 $ echo $ROS_PACKAGE_PATH
 
-### Create a new package:
+# Create a new package:
 $ catkin_create_pkg <package_name> [depend1] [depend2] [depend3]
 
-### Build a catkin workspace and sourcing: 
+# Build a catkin workspace and sourcing: 
 $ cd ~/catkin_ws
 $ catkin_make
 $ . ~/catkin_ws/devel/setup.bash
 
-### build a catkin package (In a catkin workspace)
+# build a catkin package (In a catkin workspace)
 $ catkin_make
 $ catkin_make install  # (optionally)
 
 $roscore
 
-###New terminal
+# New terminal
 $ rosnode list
 $ rosnode info /rosout
 
 $ rosrun [package_name] [node_name] __name:=<new_name>
 $ rosnode ping my_turtle
-'''
+```
 _______________________________________________
 ## In a CMake project
-'''
+```
 $ mkdir build
 $ cd build
 $ cmake ..
 $ make
 $ make install  # (optionally)
-'''
+```
 _______________________________________________
 ## package.xml Sample
-'''
+```
    1 <?xml version="1.0"?>
    2 <package format="2">
    3   <name>beginner_tutorials</name>
@@ -98,5 +98,5 @@ _______________________________________________
   20   <exec_depend>std_msgs</exec_depend>
   21 
   22 </package>
-'''
+```
 
