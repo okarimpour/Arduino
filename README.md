@@ -34,18 +34,6 @@ roscpp = c++ client library
 **rosed** is part of the rosbash suite. It allows you to directly edit a file within a package by using the package name rather than having to type the entire path to the package.
 **msg** files are simple text files that describe the fields of a ROS message. They are used to generate source code for messages in different languages.
 **srv** file describes a service. It is composed of two parts: a request and a response.
-****
-****
-****
-****
-****
-****
-****
-****
-****
-****
-****
-****
 _______________________________________________
 ### ROS general practices
 ```
